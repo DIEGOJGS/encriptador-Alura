@@ -1,4 +1,4 @@
-Pasos
+Pasos<br>
 1.-extrayendo imagenes figma<br>
 2.-Crear index.html<br>
 3.-Crear app.js<br>
