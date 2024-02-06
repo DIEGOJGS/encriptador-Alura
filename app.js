@@ -7,7 +7,7 @@ function encriptar() {
                         .replace(/u/igm, "ufat");
 
   // Ocultar elementos y mostrar el resultado
-  document.getElementById("imgDer").style.display = "none";
+  document.getElementById("imgM").style.display = "none";
   document.getElementById("texto").style.display = "none";
   document.getElementById("copiar").style.display = "inherit";
   document.getElementById("texto2").innerHTML = txtcifrado;
@@ -22,7 +22,7 @@ function desencriptar() {
                         .replace(/ufat/igm, "u");
 
   // Ocultar elementos y mostrar el resultado
-  document.getElementById("imgDer").style.display = "none";
+  document.getElementById("imgM").style.display = "none";
   document.getElementById("texto").style.display = "none";
   document.getElementById("copiar").style.display = "inherit";
   document.getElementById("texto2").innerHTML = txtcifrado;
@@ -39,10 +39,10 @@ function desencriptar() {
 
   function limpiarCaja(){
     document.querySelector('#inputtexto').value ='';
-    document.querySelector('#texto2').value ='';
+    document.querySelector('#texto2').innerHTML = ''; 
     document.getElementById("reset").style.display = "none";
     document.getElementById("copiar").style.display = "none";
-    document.getElementById("imgDer").style.display = "inherit";
+    document.getElementById("imgM").style.display = "inherit";
 
     
    
