@@ -18,7 +18,7 @@ body{
     outline: none;
     border: none;
     background-color: #f4f4fc;
-    cursor: pointer;
+    
     color: #0A3871;
     font-size: 32px;
     font-weight: 400;
@@ -31,8 +31,14 @@ body{
     height: 50%;
     border-radius: 24px;
   }
+
+  #inputtexto:hover{
+    cursor: pointer;
+
+  }
   .Alerta{
     float: left;
+    padding: 0 5px 0 0;
     
   }
   
@@ -51,8 +57,17 @@ body{
     background: #0A3871;
     border-radius: 24px;
     margin-left: 15%;
-    cursor: pointer;
+    
   }
+  #btn-encriptar:hover{
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+  
+
   #btn-desencriptar{
     padding: 24px;
     width: 30%;
@@ -62,6 +77,15 @@ body{
     margin-left: 10%;
     cursor: pointer;
   }
+  #btn-desencriptar:hover{
+    color: rgb(0, 10, 146) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+
+
   p{
     margin-left: 5%;
     padding: 0 0 15px;
@@ -80,6 +104,7 @@ body{
     margin-top: 20%;
     width: 90%;
     height: auto;
+    
     left: 1032px;
     top: 283px;
   }
@@ -99,18 +124,33 @@ body{
     border-radius: 24px;
     cursor: pointer;
   }
+  #copiar:hover{
+    color: rgb(0, 10, 146) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+
 
   #reset{
     margin-left: 4%;
     margin-top: 80%;
     display: none;
     padding: 34px;
-    width: 50%;
+    width: 90%;
     height: 16%;
     background: #D8DFE8;
     border-radius: 24px;
+    
+  }
+  #reset:hover{
+    color: rgb(0, 10, 146) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
     cursor: pointer;
   }
+  
+
   .logo{
     width: 100%;
     float: left;
@@ -132,7 +172,7 @@ body{
     color: #0A3871;
     width: 80%;
     height: 30%;
-    background: #F3F5FC;
+    background: #ffffff;
     outline: none;
     border: none;
     font-size: 15px;
@@ -149,7 +189,132 @@ body{
     height: 10%;
   }
   
+  
 
-.ocultar{
-    display: none;
+@media screen and (max-width:480px){
+
+  body{
+    width: auto;
+  }
+  .container{
+    width: 375px;
+    height: 915px;
+    top: 3588px;
+    left: -2277px;
+
+  }
+  .logo{
+    margin: auto;
+    float:left;
+    width: 375px;
+    height: 96px;
+    top: 25px;
+    left: 16px;
+  }
+  .logo .tittle{
+    margin: auto;
+      float:initial;
+      text-align: center;
+      font-size: 30px;
+  }
+
+  .left,.text-input{
+    position: static;
+    width: 343px;
+    height: 48px;
+    top: 152px;
+    left: 16px;
+    margin: auto;
+    
+
+  }
+  
+  p{
+    margin: 5px 5px 5px 5px;
+    width: 229px;
+    height: 18px;
+    top: 451px;
+    left: 16px;
+    gap: 8px;
+    
+    
+    
+  }
+  #reset{
+    margin: auto;
+    position: static;
+    width: 343px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 8px;
+  }
+
+
+  #btn-encriptar{
+    margin: 15px 15px 0px 15px;
+    width: 343px;
+    position: fill;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 8px;
+
+  }
+  
+  #btn-desencriptar{
+    margin: 8px 15px 15px 15px;
+    width: 343px;
+    position: fill;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 8px;
+  }
+
+
+  .right{
+    margin: 10px 15px auto 15px;
+    width: 343px;
+    position:absolute;
+    height: 185px;
+    top: 350px;
+
+    border-radius: 32px;
+    gap: 32px;
+    float: initial;
+    
+  }
+
+
+
+  #texto{
+    margin: auto;
+    width: 263px;
+    height: 58px;
+
+    
+  }
+
+  #texto2{
+    margin: auto;
+    width: 263px;
+    height: 48px;
+    float:initial;
+
+  }
+  #copiar{
+    margin-top: 240px;
+    margin-left: auto;
+    margin-bottom: 5px;
+    width: 343px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 8px;
+    
+  }
+
 }
