@@ -33,7 +33,7 @@ function desencriptar() {
     var contenido = document.querySelector("#texto2");
     contenido.select();
     document.execCommand('copy');
-    alert("Copied!");
+    alert("Codigo Copiado");
   }
 
 
@@ -43,6 +43,8 @@ function desencriptar() {
     document.getElementById("reset").style.display = "none";
     document.getElementById("copiar").style.display = "none";
     document.getElementById("imgM").style.display = "inherit";
+
+    alert("Se reinicio app");
 
     
    
