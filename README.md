@@ -38,11 +38,16 @@ El sistema sigue las siguientes reglas de reemplazo:
 ## 📁 Estructura del Proyecto
 
     encriptador-Alura/
-    ├── index.html
-    ├── app.js
-    ├── style.css
-    └── img/
-      └── mockup.png (opcional: puedes agregar tus propias imágenes)
+    ├── .vscode/ # Configuración de Visual Studio Code (opcional)
+    ├── imagenes/ # Carpeta con assets visuales
+        │ ├── Alerta.svg # Icono de advertencia
+        │ ├── Logo.svg # Logo principal del encriptador
+        │ └── Muñeco.svg # Ilustración del personaje
+    ├── index.html # Archivo principal de la interfaz
+    ├── app.js # Lógica de encriptación/desencriptación
+    ├── style.css # Estilos principales
+    ├── reset.css # Reset de estilos base
+    └── README.md # Documentación del proyecto
 
 ---
 
