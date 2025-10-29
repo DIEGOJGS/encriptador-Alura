@@ -76,10 +76,3 @@ Reto de programación de Alura Latam – Fundamentos de Programación en JavaScr
 ---
 ¡Gracias por visitar el proyecto! 🚀
 
-### 📌 Notas adicionales:
-
-- Si tienes una imagen de tu interfaz (por ejemplo, exportada de Figma), guárdala en la carpeta `img/` y llámala `mockup.png` para que coincida con el `README`.
-- Si usaste fuentes de Google Fonts o íconos, puedes personalizar la sección de tecnologías.
-- Si deseas, puedo ayudarte a generar una **demo en GitHub Pages** o a mejorar la lógica de encriptación/desencriptación.
-
-¿Quieres que adapte algo específico de tu implementación real (por ejemplo, cómo manejas mayúsculas o acentos)? ¡Solo dime!
