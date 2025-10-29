@@ -2,7 +2,7 @@
 
 Un encriptador de texto desarrollado como parte del **reto de Alura Latam**, que permite cifrar y descifrar mensajes usando un conjunto de reglas simples. Ideal para practicar **manipulación de strings**, **eventos en JavaScript**, y el desarrollo de interfaces **responsive** con HTML y CSS.
 
-![Vista del encriptador](./img/mockup.png)
+(https://diegojgs.github.io/encriptador-Alura/)
 
 > ⚠️ **Nota**: Este encriptador no usa algoritmos criptográficos reales. Está diseñado con fines educativos.
 
